@@ -55,7 +55,7 @@ var globalHandlers = []mux.MiddlewareFunc{
 	// Redirect some pre-defined browser request paths to a static location prefix.
 	setBrowserRedirectHandler,
 	// Adds 'crossdomain.xml' policy handler to serve legacy flash clients.
-	setCrossDomainPolicy,
+	//setCrossDomainPolicy,
 	// Limits all body and header sizes to a maximum fixed limit
 	setRequestLimitHandler,
 	// Network statistics
